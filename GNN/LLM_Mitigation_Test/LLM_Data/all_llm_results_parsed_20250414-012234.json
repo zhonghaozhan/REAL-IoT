@@ -1,0 +1,602 @@
+[
+    {
+        "node_id": 0,
+        "confidence_score": 0.85,
+        "justification": "Node 0 exhibits significantly different scaled feature values compared to its neighbors, particularly in duration and byte counts, suggesting it may be anomalous or part of a different activity pattern."
+    },
+    {
+        "node_id": 1,
+        "confidence_score": 0.85,
+        "justification": "Node 1 exhibits anomalous behavior due to its high feature values and zero duration, which is inconsistent with its neighbors that also have zero duration but significantly lower feature values, suggesting potential malicious activity like a DDoS attack."
+    },
+    {
+        "node_id": 2,
+        "confidence_score": 0.85,
+        "justification": "Node 2 exhibits significant feature deviations from its neighbors, particularly in scaled values indicating potential anomalies in flow duration and byte counts, suggesting it may be part of an anomalous or malicious activity pattern."
+    },
+    {
+        "node_id": 3,
+        "confidence_score": 0.8,
+        "justification": "Node 3 exhibits a significantly different feature pattern compared to its neighbors, particularly with a high outgoing byte count and zero TCP flags, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 4,
+        "confidence_score": 0.85,
+        "justification": "Node 4 exhibits anomalous behavior with a high feature value combination and connects to neighbors with zero-duration flows, suggesting potential malicious activity like DDoS or spoofing."
+    },
+    {
+        "node_id": 5,
+        "confidence_score": 0.85,
+        "justification": "Node 5 is anomalous due to its zero duration and zero TCP flags, which is inconsistent with its neighbors' typical UDP flows and one TCP flow with non-zero duration and flags, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 6,
+        "confidence_score": 0.85,
+        "justification": "Node 6 exhibits anomalous behavior due to its processed feature values indicating a significant deviation from its neighbors, particularly in terms of flow duration and protocol usage, suggesting potential spoofing or reconnaissance activity."
+    },
+    {
+        "node_id": 7,
+        "confidence_score": 0.85,
+        "justification": "Node 7 exhibits a significant deviation in feature scaling and encoding compared to its neighbors, particularly in the high outgoing bytes and zero TCP flags, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 8,
+        "confidence_score": 0.85,
+        "justification": "Node 8 exhibits anomalous behavior due to its significantly lower scaled feature values compared to its UDP neighbors, which all have zero duration, suggesting potential spoofing or DDoS activity."
+    },
+    {
+        "node_id": 9,
+        "confidence_score": 0.85,
+        "justification": "Node 9 exhibits anomalous behavior with significantly negative scaled features indicating low activity, yet it connects to nodes with zero duration and varying protocols, suggesting potential spoofing or reconnaissance."
+    },
+    {
+        "node_id": 10,
+        "confidence_score": 0.85,
+        "justification": "Node 10 is anomalous due to its processed features indicating a non-zero duration and zero TCP flags, which is inconsistent with its neighbors that all have zero duration and varied TCP flags, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 11,
+        "confidence_score": 0.85,
+        "justification": "Node 11 exhibits anomalous behavior with a high L7_PROTO value and non-zero duration compared to its neighbors, which all have zero duration, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 12,
+        "confidence_score": 0.85,
+        "justification": "Node 12 exhibits a significantly different feature pattern compared to its neighbors, particularly with a high outgoing byte count and zero TCP flags, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 13,
+        "confidence_score": 0.85,
+        "justification": "Node 13 exhibits a significantly shorter flow duration and higher outgoing bytes compared to its neighbors, suggesting potential anomalous behavior indicative of a short burst attack or data exfiltration."
+    },
+    {
+        "node_id": 14,
+        "confidence_score": 0.85,
+        "justification": "Node 14 exhibits a very short flow duration and zero TCP flags, which is inconsistent with its neighbors that have long durations and varied TCP flags, indicating potential anomalous behavior."
+    },
+    {
+        "node_id": 15,
+        "confidence_score": 0.85,
+        "justification": "Node 15 is anomalous due to its processed feature values indicating a significant deviation from its neighbors, which predominantly have zero duration flows with consistent UDP protocol usage, while Node 15's features suggest a different pattern."
+    },
+    {
+        "node_id": 16,
+        "confidence_score": 0.85,
+        "justification": "Node 16 exhibits anomalous behavior with high feature values and connects to neighbors with zero duration, suggesting potential involvement in a DDoS attack or similar activity."
+    },
+    {
+        "node_id": 17,
+        "confidence_score": 0.85,
+        "justification": "Node 17 exhibits anomalous behavior with significantly scaled negative feature values indicating low activity, contrasting with its neighbors' zero-duration UDP flows, suggesting potential spoofing or scanning activity."
+    },
+    {
+        "node_id": 18,
+        "confidence_score": 0.8,
+        "justification": "Node 18 exhibits a significant mismatch in feature scaling and encoding compared to its neighbors, particularly with non-zero duration and protocol features, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 19,
+        "confidence_score": 0.85,
+        "justification": "Node 19 exhibits significantly different feature values compared to its neighbors, particularly in terms of scaled/encoded features indicating potential anomalies in flow duration and byte counts, suggesting it may be part of an anomalous or malicious activity pattern."
+    },
+    {
+        "node_id": 20,
+        "confidence_score": 0.85,
+        "justification": "Node 20 exhibits anomalous behavior with significantly lower feature values compared to its neighbors, particularly in flow duration and byte counts, suggesting potential spoofing or reconnaissance activity."
+    },
+    {
+        "node_id": 21,
+        "confidence_score": 0.8,
+        "justification": "Node 21 exhibits anomalous behavior with a non-zero duration and scaled features inconsistent with its neighbors, which all have zero duration and similar byte patterns, suggesting potential deviation from typical UDP traffic patterns."
+    },
+    {
+        "node_id": 22,
+        "confidence_score": 0.85,
+        "justification": "Node 22 exhibits anomalous behavior with significantly lower scaled feature values compared to its neighbors, all of which have zero duration and similar byte patterns, suggesting potential spoofing or DDoS activity."
+    },
+    {
+        "node_id": 23,
+        "confidence_score": 0.85,
+        "justification": "Node 23 exhibits anomalous behavior with significantly different scaled features compared to its neighbors, which all share similar raw feature values indicating consistent long-duration TCP flows with no outgoing bytes."
+    },
+    {
+        "node_id": 24,
+        "confidence_score": 0.85,
+        "justification": "Node 24 exhibits a significantly different feature pattern compared to its neighbors, particularly with a high outgoing byte count and zero TCP flags, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 25,
+        "confidence_score": 0.8,
+        "justification": "Node 25 exhibits a significantly different feature pattern compared to its neighbors, particularly with a high OUT_BYTES value and zero TCP_FLAGS, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 26,
+        "confidence_score": 0.85,
+        "justification": "Node 26 exhibits anomalous behavior with significantly different scaled features compared to its neighbors, which all have consistent raw feature values indicating similar flow characteristics, suggesting potential spoofing or misclassification."
+    },
+    {
+        "node_id": 27,
+        "confidence_score": 0.85,
+        "justification": "Node 27 exhibits anomalous behavior with significantly lower scaled feature values compared to its neighbors, which have consistent zero-duration UDP flows, suggesting potential spoofing or scanning activity."
+    },
+    {
+        "node_id": 28,
+        "confidence_score": 0.8,
+        "justification": "Node 28 exhibits anomalous behavior with a significantly different feature profile compared to its neighbors, particularly in terms of scaled/encoded values, suggesting potential spoofing or disguised activity."
+    },
+    {
+        "node_id": 29,
+        "confidence_score": 0.85,
+        "justification": "Node 29 is anomalous due to its zero TCP flags and duration, contrasting with its neighbors' varied TCP flags and zero durations, suggesting potential spoofing or scanning activity."
+    },
+    {
+        "node_id": 30,
+        "confidence_score": 0.85,
+        "justification": "Node 30 is anomalous due to its non-zero duration and scaled features indicating activity inconsistent with its neighbors, which all have zero duration, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 31,
+        "confidence_score": 0.85,
+        "justification": "Node 31 exhibits a significantly shorter duration and higher outgoing bytes compared to its neighbors, suggesting an unusual flow pattern potentially indicative of anomalous activity."
+    },
+    {
+        "node_id": 32,
+        "confidence_score": 0.85,
+        "justification": "Node 32 exhibits anomalous behavior due to its significantly scaled and encoded feature values, particularly the negative duration and byte metrics, which are inconsistent with its neighbors' zero-duration and small byte values, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 33,
+        "confidence_score": 0.85,
+        "justification": "Node 33 exhibits significant feature inconsistency with its neighbors, particularly in scaled features indicating anomalous behavior, such as high outgoing bytes and low duration, which are not observed in the consistent pattern of its neighbors."
+    },
+    {
+        "node_id": 34,
+        "confidence_score": 0.85,
+        "justification": "Node 34 exhibits a significantly lower duration and higher outgoing bytes compared to its neighbors, suggesting potential anomalous behavior indicative of a short, high-volume burst typical in DDoS or data exfiltration activities."
+    },
+    {
+        "node_id": 35,
+        "confidence_score": 0.85,
+        "justification": "Node 35 is anomalous due to its zero duration and TCP protocol with no TCP flags set, unlike its neighbors which have non-zero durations and various TCP flags, indicating potential spoofing or scanning activity."
+    },
+    {
+        "node_id": 36,
+        "confidence_score": 0.85,
+        "justification": "Node 36 exhibits a significantly shorter flow duration and higher outgoing bytes compared to its neighbors, suggesting potential anomalous behavior such as data exfiltration."
+    },
+    {
+        "node_id": 37,
+        "confidence_score": 0.85,
+        "justification": "Node 37 exhibits a high outgoing byte count and protocol usage inconsistent with its neighbors, all of which have zero duration flows, indicating potential anomalous behavior."
+    },
+    {
+        "node_id": 38,
+        "confidence_score": 0.85,
+        "justification": "Node 38 is anomalous due to its non-zero duration and zero TCP flags, contrasting with its neighbors' zero-duration and varied TCP flags, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 39,
+        "confidence_score": 0.85,
+        "justification": "Node 39 is anomalous due to its non-zero duration and zero TCP flags, contrasting with its neighbors' zero durations and non-zero TCP flags, indicating potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 40,
+        "confidence_score": 0.85,
+        "justification": "Node 40 exhibits significantly scaled negative feature values indicating low activity, yet it connects to multiple neighbors with zero-duration UDP flows, suggesting potential anomalous behavior such as a DDoS attack."
+    },
+    {
+        "node_id": 41,
+        "confidence_score": 0.85,
+        "justification": "Node 41 exhibits anomalous behavior with a high feature variance compared to its neighbors, particularly in flow duration and byte distribution, suggesting potential malicious activity."
+    },
+    {
+        "node_id": 42,
+        "confidence_score": 0.85,
+        "justification": "Node 42 exhibits a significantly different feature pattern with non-zero scaled values compared to its neighbors, which all have zero duration and similar byte counts, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 43,
+        "confidence_score": 0.85,
+        "justification": "Node 43 exhibits a highly unusual feature combination with a significant deviation in scaled features compared to its neighbors, particularly in flow duration and packet counts, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 44,
+        "confidence_score": 0.85,
+        "justification": "Node 44 is anomalous due to its high feature values and zero TCP flags, contrasting with its neighbors' zero-duration flows and varied TCP flags, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 45,
+        "confidence_score": 0.85,
+        "justification": "Node 45 is anomalous due to its non-zero duration and zero TCP flags, which starkly contrast with its neighbors that have zero duration and varied TCP flags, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 46,
+        "confidence_score": 0.85,
+        "justification": "Node 46 exhibits anomalous behavior with significantly lower feature values compared to its neighbors, which have consistent high-duration and in-byte values, suggesting it may not belong to the same flow pattern."
+    },
+    {
+        "node_id": 47,
+        "confidence_score": 0.85,
+        "justification": "Node 47 is anomalous due to its processed features indicating a non-zero duration, while all connected neighbors have a zero duration, suggesting a potential mismatch or unusual activity pattern."
+    },
+    {
+        "node_id": 48,
+        "confidence_score": 0.85,
+        "justification": "Node 48 exhibits anomalous behavior due to its significantly different scaled feature values compared to its neighbors, which all show zero duration and consistent UDP traffic patterns, suggesting it may not belong to the same benign activity cluster."
+    },
+    {
+        "node_id": 49,
+        "confidence_score": 0.85,
+        "justification": "Node 49 is anomalous due to its significantly higher scaled feature values compared to neighbors with zero-duration flows, indicating potential spoofing or DDoS activity."
+    },
+    {
+        "node_id": 50,
+        "confidence_score": 0.85,
+        "justification": "Node 50 exhibits anomalous behavior due to its significantly higher scaled OUT_BYTES value compared to its neighbors, which all have consistent raw OUT_BYTES values, suggesting potential data exfiltration or misconfiguration."
+    },
+    {
+        "node_id": 51,
+        "confidence_score": 0.8,
+        "justification": "Node 51 exhibits a significantly different feature pattern compared to its neighbors, particularly with a high outgoing byte count and zero TCP flags, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 52,
+        "confidence_score": 0.85,
+        "justification": "Node 52 exhibits anomalous behavior due to its significantly lower scaled feature values compared to its neighbors, indicating potential under-reporting or misrepresentation of flow characteristics, which is inconsistent with the typical patterns observed in the connected nodes."
+    },
+    {
+        "node_id": 53,
+        "confidence_score": 0.85,
+        "justification": "Node 53 exhibits anomalous behavior due to its non-zero scaled features indicating activity, while all connected neighbors have zero duration, suggesting potential spoofing or scanning activity."
+    },
+    {
+        "node_id": 54,
+        "confidence_score": 0.85,
+        "justification": "Node 54 exhibits anomalous behavior due to its significantly different scaled features compared to its neighbors, particularly in terms of protocol and duration, suggesting potential spoofing or reconnaissance activity."
+    },
+    {
+        "node_id": 55,
+        "confidence_score": 0.85,
+        "justification": "Node 55 exhibits significantly different feature scaling, particularly in duration and byte metrics, compared to its neighbors, suggesting anomalous behavior potentially indicative of a spoofing or reconnaissance activity."
+    },
+    {
+        "node_id": 56,
+        "confidence_score": 0.85,
+        "justification": "Node 56 exhibits significantly different feature scaling and encoding compared to its neighbors, particularly in flow duration and byte counts, suggesting anomalous behavior potentially indicative of a spoofing or reconnaissance activity."
+    },
+    {
+        "node_id": 57,
+        "confidence_score": 0.85,
+        "justification": "Node 57 exhibits anomalous behavior with a very low flow duration and zero TCP flags, unlike its neighbors which have zero duration but varied TCP flags and protocols, suggesting potential spoofing or reconnaissance."
+    },
+    {
+        "node_id": 58,
+        "confidence_score": 0.85,
+        "justification": "Node 58 exhibits anomalous behavior due to its high feature values compared to its neighbors, which all have zero duration, suggesting it may be part of a different or malicious activity pattern."
+    },
+    {
+        "node_id": 59,
+        "confidence_score": 0.85,
+        "justification": "Node 59 exhibits anomalous behavior due to its processed features indicating significant deviation from its neighbors, particularly with a non-zero duration and protocol inconsistencies, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 60,
+        "confidence_score": 0.85,
+        "justification": "Node 60 is likely anomalous due to its significantly higher scaled feature values compared to its neighbors, all of which have zero duration, suggesting a potential DDoS or spoofing activity."
+    },
+    {
+        "node_id": 61,
+        "confidence_score": 0.85,
+        "justification": "Node 61 exhibits anomalous behavior due to its processed features indicating high activity levels inconsistent with its neighbors, particularly given the zero TCP flags and protocol values, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 62,
+        "confidence_score": 0.85,
+        "justification": "Node 62 exhibits anomalous behavior due to its processed feature values indicating a significant deviation from its neighbors, particularly in terms of flow duration and byte counts, suggesting potential spoofing or reconnaissance activity."
+    },
+    {
+        "node_id": 63,
+        "confidence_score": 0.85,
+        "justification": "Node 63 exhibits anomalous behavior due to its connection to multiple nodes with zero duration and zero outgoing bytes, combined with unknown protocols, suggesting potential malicious activity like a DDoS attack."
+    },
+    {
+        "node_id": 64,
+        "confidence_score": 0.85,
+        "justification": "Node 64 exhibits anomalous behavior with unusually high scaled feature values and zero TCP flags, inconsistent with its TCP neighbors having high TCP flags and long durations, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 65,
+        "confidence_score": 0.85,
+        "justification": "Node 65 is anomalous due to its zero TCP flags and duration, contrasting with neighbors having diverse TCP flags and zero duration, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 66,
+        "confidence_score": 0.85,
+        "justification": "Node 66 exhibits anomalous behavior with high scaled feature values for duration and packets, contrasting with its neighbors' zero-duration flows, indicating potential spoofing or DDoS activity."
+    },
+    {
+        "node_id": 67,
+        "confidence_score": 0.85,
+        "justification": "Node 67 exhibits anomalous behavior with a significantly lower flow duration and incoming bytes compared to its UDP neighbors, suggesting potential spoofing or scanning activity."
+    },
+    {
+        "node_id": 68,
+        "confidence_score": 0.85,
+        "justification": "Node 68 exhibits anomalous behavior with a significantly different feature profile compared to its neighbors, which all have consistent TCP flows with zero outgoing bytes and long durations, suggesting potential spoofing or reconnaissance activity."
+    },
+    {
+        "node_id": 69,
+        "confidence_score": 0.85,
+        "justification": "Node 69 exhibits anomalous behavior with high feature values and a diverse protocol mix compared to its neighbors, which all have zero duration and consistent TCP protocol and flags."
+    },
+    {
+        "node_id": 70,
+        "confidence_score": 0.85,
+        "justification": "Node 70 is anomalous due to its processed feature values indicating significant deviation from its neighbors, particularly in flow duration and byte counts, suggesting potential malicious activity like a DDoS attack."
+    },
+    {
+        "node_id": 71,
+        "confidence_score": 0.85,
+        "justification": "Node 71 exhibits anomalous behavior with significantly higher scaled feature values compared to its neighbors, which all show zero duration, suggesting potential spoofing or DDoS activity."
+    },
+    {
+        "node_id": 72,
+        "confidence_score": 0.85,
+        "justification": "Node 72 exhibits anomalous behavior with a significantly different feature pattern compared to its neighbors, including a high diversity in protocol types and zero-duration flows, suggesting potential malicious activity."
+    },
+    {
+        "node_id": 73,
+        "confidence_score": 0.85,
+        "justification": "Node 73 exhibits anomalous behavior due to its non-zero duration and zero TCP flags, contrasting with its neighbors' zero-duration flows and varied TCP flags, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 74,
+        "confidence_score": 0.85,
+        "justification": "Node 74 exhibits anomalous behavior due to its significantly different scaled feature values compared to its UDP neighbors, which all have zero duration and similar byte counts, suggesting potential spoofing or DDoS activity."
+    },
+    {
+        "node_id": 75,
+        "confidence_score": 0.85,
+        "justification": "Node 75 is anomalous due to its significantly lower scaled feature values compared to its UDP neighbors, which all have zero duration and similar byte patterns, suggesting potential spoofing or a misconfigured flow."
+    },
+    {
+        "node_id": 76,
+        "confidence_score": 0.85,
+        "justification": "Node 76 exhibits a significantly higher feature value profile compared to its neighbors, particularly in terms of duration and packet metrics, suggesting anomalous behavior potentially indicative of a disguised malicious flow."
+    },
+    {
+        "node_id": 77,
+        "confidence_score": 0.85,
+        "justification": "Node 77 exhibits a high L7_PROTO value and zero TCP flags, which is inconsistent with its neighbors that have low L7_PROTO values and non-zero TCP flags, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 78,
+        "confidence_score": 0.85,
+        "justification": "Node 78 exhibits anomalous behavior due to its processed feature values indicating a high level of activity and diversity in protocol usage, which is inconsistent with its neighbors that show zero duration and specific TCP flag patterns, suggesting potential malicious activity."
+    },
+    {
+        "node_id": 79,
+        "confidence_score": 0.85,
+        "justification": "Node 79 exhibits an anomalous feature pattern with significantly higher outgoing bytes compared to its neighbors, suggesting potential data exfiltration or misconfiguration."
+    },
+    {
+        "node_id": 80,
+        "confidence_score": 0.85,
+        "justification": "Node 80 exhibits anomalous behavior due to its non-zero duration and zero TCP flags, which is inconsistent with its neighbors that all have zero duration and non-zero TCP flags, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 81,
+        "confidence_score": 0.85,
+        "justification": "Node 81 is anomalous due to its zero TCP flags and duration, contrasting with its neighbors' varied TCP flags and zero durations, suggesting potential spoofing or misconfigured flows."
+    },
+    {
+        "node_id": 82,
+        "confidence_score": 0.85,
+        "justification": "Node 82 exhibits a significant mismatch in feature consistency, particularly with a non-zero duration compared to its neighbors with zero duration, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 83,
+        "confidence_score": 0.85,
+        "justification": "Node 83 exhibits anomalous behavior due to its scaled features indicating non-zero duration and zero TCP flags, which is inconsistent with its neighbors that have zero duration and varied TCP flags, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 84,
+        "confidence_score": 0.85,
+        "justification": "Node 84 is anomalous due to its significantly different feature scaling and encoding compared to its neighbors, which all exhibit consistent raw feature patterns indicative of long-duration TCP flows with no outgoing bytes."
+    },
+    {
+        "node_id": 85,
+        "confidence_score": 0.8,
+        "justification": "Node 85 exhibits a significant deviation in feature values compared to its neighbors, particularly with a much higher scaled outgoing byte count, suggesting potential anomalous behavior such as data exfiltration."
+    },
+    {
+        "node_id": 86,
+        "confidence_score": 0.8,
+        "justification": "Node 86 exhibits a significant deviation in feature scaling and encoding compared to its neighbors, particularly in the processed features related to duration and byte counts, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 87,
+        "confidence_score": 0.85,
+        "justification": "Node 87 exhibits significantly lower feature values compared to its UDP neighbors, suggesting an anomalous pattern potentially indicative of a stealthy or misconfigured flow."
+    },
+    {
+        "node_id": 88,
+        "confidence_score": 0.9,
+        "justification": "Node 88 exhibits significantly higher scaled feature values compared to its neighbors, which all have zero duration, suggesting potential anomalous behavior such as a spoofed or misreported flow."
+    },
+    {
+        "node_id": 89,
+        "confidence_score": 0.85,
+        "justification": "Node 89 exhibits anomalous behavior with significantly scaled features indicating potential inconsistency in flow duration and byte counts compared to its UDP neighbors, all of which have zero duration and low byte counts, suggesting possible spoofing or reconnaissance activity."
+    },
+    {
+        "node_id": 90,
+        "confidence_score": 0.85,
+        "justification": "Node 90 exhibits anomalous behavior with significantly lower scaled feature values compared to its UDP neighbors, all of which have zero duration and similar byte patterns, suggesting potential spoofing or scanning activity."
+    },
+    {
+        "node_id": 91,
+        "confidence_score": 0.85,
+        "justification": "Node 91 is likely anomalous due to its processed feature values indicating a significant deviation from its neighbors, particularly with a non-zero duration while all neighbors have zero duration, suggesting unusual behavior."
+    },
+    {
+        "node_id": 92,
+        "confidence_score": 0.85,
+        "justification": "Node 92 exhibits anomalous behavior with significantly scaled negative feature values indicating potential spoofing or DDoS activity, especially given its connection to multiple zero-duration UDP flows and a TCP flow with mismatched protocol features."
+    },
+    {
+        "node_id": 93,
+        "confidence_score": 0.85,
+        "justification": "Node 93 exhibits an unusual combination of low feature values and zero TCP flags, contrasting with its neighbors' non-zero TCP flags and varying L7 protocol values, suggesting potential anomaly."
+    },
+    {
+        "node_id": 94,
+        "confidence_score": 0.8,
+        "justification": "Node 94 exhibits a significantly different feature pattern compared to its neighbors, particularly with a high outgoing byte count and zero TCP flags, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 95,
+        "confidence_score": 0.85,
+        "justification": "Node 95 exhibits a significant deviation in feature values, particularly in the scaled/encoded feature space, compared to its neighbors which have consistent raw feature values, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 96,
+        "confidence_score": 0.85,
+        "justification": "Node 96 exhibits anomalous behavior with significantly lower scaled feature values compared to its neighbors, all of which have zero flow duration, suggesting it may be part of a DDoS or spoofing activity."
+    },
+    {
+        "node_id": 97,
+        "confidence_score": 0.8,
+        "justification": "Node 97 exhibits a significant deviation in feature scaling compared to its neighbors, particularly in flow duration and byte counts, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 98,
+        "confidence_score": 0.85,
+        "justification": "Node 98 exhibits anomalous behavior due to its processed features indicating high activity levels inconsistent with its neighbors' raw features, which show extreme durations and byte counts, suggesting potential malicious activity such as a DDoS attack."
+    },
+    {
+        "node_id": 99,
+        "confidence_score": 0.85,
+        "justification": "Node 99 exhibits anomalous behavior due to its zero TCP flags and zero duration, which is inconsistent with its TCP neighbors that have non-zero TCP flags and durations, suggesting potential spoofing or scanning activity."
+    },
+    {
+        "node_id": 100,
+        "confidence_score": 0.85,
+        "justification": "Node 100 exhibits anomalous behavior with extremely low feature values and zero TCP flags, inconsistent with its neighbors' diverse protocols and non-zero durations, suggesting potential spoofing or reconnaissance."
+    },
+    {
+        "node_id": 101,
+        "confidence_score": 0.85,
+        "justification": "Node 101 exhibits anomalous behavior with zero values across all features, contrasting sharply with its neighbors' diverse and non-zero feature values, suggesting it may be a placeholder or misconfigured flow."
+    },
+    {
+        "node_id": 102,
+        "confidence_score": 0.85,
+        "justification": "Node 102 exhibits anomalous behavior due to its zeroed feature values, indicating no activity, which is inconsistent with its diverse and active neighbors, suggesting it may be a disguised or misreported flow."
+    },
+    {
+        "node_id": 103,
+        "confidence_score": 0.85,
+        "justification": "Node 103 exhibits anomalous behavior due to its extremely low feature values across all metrics, which starkly contrast with its neighbors' diverse and non-zero values, suggesting potential data manipulation or an attempt to disguise malicious activity."
+    },
+    {
+        "node_id": 104,
+        "confidence_score": 0.85,
+        "justification": "Node 104 exhibits anomalous behavior with zero duration and zero bytes/packets, unlike its neighbors which have significant traffic and durations, suggesting it may be a spoofed or malformed flow."
+    },
+    {
+        "node_id": 105,
+        "confidence_score": 0.85,
+        "justification": "Node 105 exhibits anomalous behavior due to its processed feature values being near zero, indicating minimal activity, which is inconsistent with its diverse and active neighbors, suggesting it may be a disguised or dormant malicious node."
+    },
+    {
+        "node_id": 106,
+        "confidence_score": 0.85,
+        "justification": "Node 106 exhibits anomalous characteristics with extremely low feature values compared to its neighbors, suggesting potential data manipulation or an attempt to disguise its activity."
+    },
+    {
+        "node_id": 107,
+        "confidence_score": 0.85,
+        "justification": "Node 107 exhibits anomalous behavior with zeroed features across multiple metrics, inconsistent with its neighbors that show diverse and non-zero values, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 108,
+        "confidence_score": 0.85,
+        "justification": "Node 108 exhibits anomalous behavior due to its extremely low feature values across all metrics, especially in comparison to its neighbors with diverse and non-zero values, suggesting it may be a spoofed or misconfigured flow."
+    },
+    {
+        "node_id": 109,
+        "confidence_score": 0.85,
+        "justification": "Node 109 exhibits highly scaled/encoded features indicating minimal activity, which is inconsistent with its diverse and active neighbors, suggesting potential anomaly or misclassification."
+    },
+    {
+        "node_id": 110,
+        "confidence_score": 0.85,
+        "justification": "Node 110 exhibits anomalous behavior with zero values across all features, contrasting sharply with its neighbors that have varied and significant traffic metrics, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 111,
+        "confidence_score": 0.85,
+        "justification": "Node 111 exhibits anomalous behavior with zero incoming and outgoing packets and bytes, which is inconsistent with its neighbors that have significant data transfer, suggesting potential stealthy or misconfigured activity."
+    },
+    {
+        "node_id": 112,
+        "confidence_score": 0.85,
+        "justification": "Node 112 exhibits anomalous behavior due to its zeroed feature set, which is inconsistent with its neighbors' diverse and non-zero flow characteristics, suggesting potential spoofing or obfuscation."
+    },
+    {
+        "node_id": 113,
+        "confidence_score": 0.85,
+        "justification": "Node 113 exhibits anomalous behavior due to its zero duration and zero packet counts, which is inconsistent with its neighbors that have non-zero byte and packet counts, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 114,
+        "confidence_score": 0.85,
+        "justification": "Node 114 exhibits anomalous behavior due to its processed features indicating zero activity across all metrics, which is inconsistent with its neighbors that show varied TCP traffic and non-zero byte counts, suggesting potential spoofing or stealth activity."
+    },
+    {
+        "node_id": 115,
+        "confidence_score": 0.85,
+        "justification": "Node 115 exhibits anomalous behavior with zero values across all processed features, inconsistent with its neighbors that have non-zero byte counts and durations, suggesting potential spoofing or misconfiguration."
+    },
+    {
+        "node_id": 116,
+        "confidence_score": 0.85,
+        "justification": "Node 116 exhibits anomalous behavior with zero TCP flags and byte counts, inconsistent with its neighbors' diverse and active traffic patterns, suggesting potential stealth or misconfiguration."
+    },
+    {
+        "node_id": 117,
+        "confidence_score": 0.85,
+        "justification": "Node 117 exhibits anomalous behavior due to its zeroed-out features and connections to diverse protocols and traffic patterns, including both very short and very long durations, which is inconsistent with typical network flow patterns."
+    },
+    {
+        "node_id": 118,
+        "confidence_score": 0.85,
+        "justification": "Node 118 exhibits anomalous behavior due to its zeroed-out feature values and connections to neighbors with non-zero durations and varying byte counts, suggesting potential spoofing or stealth activity."
+    },
+    {
+        "node_id": 119,
+        "confidence_score": 0.85,
+        "justification": "Node 119 exhibits anomalous behavior with zeroed features and connects to diverse neighbors with varying protocols and extreme feature values, suggesting potential spoofing or reconnaissance."
+    }
+]

@@ -1,0 +1,36 @@
+# Python virtual environment
+venv/
+negsc_gpu_env/
+gnn_cuda_env/
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data directories/
+GNN/kaggle/
+GNN/Adversarial Evaluation/AnomalE_Evaluation/Attacked_Data/
+# Home directory
+~/
+
+# Shell configurations
+.config/fish/config.fish
+.config/fish/
+
+# Virtual Environments
+adversarial_env/
+gnn_cuda_env/
+egraphsage_eval_venv/
+.llm_mitigation_env/
+
+# Data and Model Files
+*.pt
+*.pkl
+
+# Or ignore specific directories
+GNN/Adversarial Evaluation/AnomalE_Evaluation/Attacked_Data/
+GNN/Adversarial Evaluation/CAGN_GAT_Evaluation/Attacked_Data/
+GNN/Adversarial Evaluation/AnomalE_Evaluation/Preprocess_Objects/

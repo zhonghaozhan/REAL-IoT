@@ -1,0 +1,35 @@
+# AI Agent Rules for Network Intrusion Detection Project
+
+## Path Management
+- Always use relative paths for accessing dataset files
+- Dataset files should be referenced as `kaggle/input/...` not `/kaggle/input/...`
+- When moving between machines, update paths in memory bank
+
+## Code Execution Patterns
+- For large datasets, use smaller samples during development (e.g., KDDTrain+_20Percent.txt)
+- Save intermediate results to avoid reprocessing
+- Ensure consistent preprocessing across notebooks
+- When editing model parameters, document changes in activeWorkflow.md
+
+## Dataset Handling
+- NSL-KDD categories: DoS, Probe, R2L, U2R, Normal
+- Keep consistent encoding for categorical features
+- Apply the same normalization technique across all notebooks
+- Document feature engineering decisions
+
+## Model Training
+- Use early stopping to prevent overfitting
+- Save model checkpoints during training
+- Record hyperparameters for reproducibility
+- When comparing models, use the same test set
+
+## Remote Environment
+- SSH connections may cause Jupyter notebook editing issues
+- If notebook appears read-only, try keyboard shortcuts: Esc then Enter
+- For persistent changes, consider editing file directly via terminal
+- Save work frequently when working on remote connections
+
+## Memory Bank Updates
+- Update activeWorkflow.md after each work session
+- Update progress.md when significant milestones are reached
+- Document any new patterns or issues in this .aigentrules file 

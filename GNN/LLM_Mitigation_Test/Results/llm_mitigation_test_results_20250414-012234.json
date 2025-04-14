@@ -1,0 +1,31 @@
+{
+    "clean_graph_eval": {
+        "Accuracy": 0.65,
+        "Precision": 0.5844155844155844,
+        "Recall": 0.9375,
+        "F1": 0.7200000000000001,
+        "AUC": 0.8245192307692308,
+        "Nodes": 100,
+        "Edges": 2000
+    },
+    "injected_graph_eval": {
+        "Accuracy": 0.6666666666666666,
+        "Precision": 0.5540540540540541,
+        "Recall": 0.8541666666666666,
+        "F1": 0.6721311475409837,
+        "AUC": 0.7900752314814814,
+        "Nodes": 120,
+        "Edges": 2200
+    },
+    "llm_fixed_graph_eval": {},
+    "llm_mitigation_info": {
+        "model": "gpt-4o",
+        "threshold": 0.6,
+        "nodes_analyzed_by_llm": 120,
+        "nodes_injected_total": 20,
+        "nodes_flagged_by_llm": 120,
+        "correctly_flagged_injected": 20,
+        "incorrectly_flagged_original": 100,
+        "missed_injected_nodes": 0
+    }
+}

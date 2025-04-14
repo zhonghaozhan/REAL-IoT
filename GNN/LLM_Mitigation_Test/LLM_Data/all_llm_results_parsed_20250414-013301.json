@@ -1,0 +1,602 @@
+[
+    {
+        "node_id": 0,
+        "confidence_score": 0.1,
+        "justification": "Node 0's raw features are consistent with its neighbors, showing similar protocol, L7_Proto, TCP_Flags, InBytes, OutBytes, and Duration values, indicating likely normal activity."
+    },
+    {
+        "node_id": 1,
+        "confidence_score": 0.2,
+        "justification": "Node 1's raw features are consistent with most neighbors, sharing similar TCP protocol, L7_Proto, and TCP_Flags, though slight variations in InBytes and OutBytes are observed."
+    },
+    {
+        "node_id": 2,
+        "confidence_score": 0.0,
+        "justification": "Node 2's raw features are consistent with its neighbors, showing identical protocol, L7 protocol, TCP flags, and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 3,
+        "confidence_score": 0.1,
+        "justification": "Node 3's raw features are highly consistent with its neighbors, showing similar protocol, TCP flags, and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 4,
+        "confidence_score": 0.2,
+        "justification": "Node 4's raw features, including TCP protocol, L7_Proto, and TCP_Flags, are consistent with several neighbors, though the zero duration is unusual but not unique among its neighbors."
+    },
+    {
+        "node_id": 5,
+        "confidence_score": 0.2,
+        "justification": "Node 5's raw features are consistent with most of its UDP neighbors, but the presence of a TCP neighbor with different features slightly increases suspicion."
+    },
+    {
+        "node_id": 6,
+        "confidence_score": 0.2,
+        "justification": "Node 6's raw features are consistent with most neighbors, except for a few TCP nodes, suggesting mostly normal activity with slight anomaly potential."
+    },
+    {
+        "node_id": 7,
+        "confidence_score": 0.1,
+        "justification": "Node 7's raw features are consistent with its neighbors, showing similar protocol, TCP flags, and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 8,
+        "confidence_score": 0.1,
+        "justification": "Node 8's raw features are consistent with its neighbors, showing similar UDP protocol usage, L7_Proto, TCP_Flags, and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 9,
+        "confidence_score": 0.3,
+        "justification": "Node 9's raw features are consistent with most neighbors, but the zero duration and outgoing bytes are slightly unusual, suggesting potential anomaly."
+    },
+    {
+        "node_id": 10,
+        "confidence_score": 0.3,
+        "justification": "Node 10's raw features are largely consistent with its neighbors, sharing similar TCP protocol and L7_Proto values, though its TCP_Flags value is less common, indicating slight anomaly."
+    },
+    {
+        "node_id": 11,
+        "confidence_score": 0.2,
+        "justification": "Node 11's raw features, including protocol, TCP flags, and byte counts, are consistent with several neighbors, though the zero duration is unusual but not unique."
+    },
+    {
+        "node_id": 12,
+        "confidence_score": 0.1,
+        "justification": "Node 12's raw features are highly consistent with its neighbors, showing identical protocol, L7 protocol, TCP flags, and byte counts, with only minor variations in flow duration, suggesting normal activity."
+    },
+    {
+        "node_id": 13,
+        "confidence_score": 0.3,
+        "justification": "Node 13's raw features are mostly consistent with its neighbors, except for slightly higher OutBytes, but not significantly anomalous."
+    },
+    {
+        "node_id": 14,
+        "confidence_score": 0.2,
+        "justification": "Node 14's raw features are largely consistent with its neighbors, sharing similar protocol, L7 protocol, and flow duration, with only minor variations in TCP flags and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 15,
+        "confidence_score": 0.2,
+        "justification": "Node 15's raw features are consistent with most neighbors, sharing identical UDP characteristics, except for one TCP neighbor, suggesting low anomaly likelihood."
+    },
+    {
+        "node_id": 16,
+        "confidence_score": 0.2,
+        "justification": "Node 16's raw features, including protocol, TCP flags, and zero duration, are consistent with its neighbors, indicating likely normal activity."
+    },
+    {
+        "node_id": 17,
+        "confidence_score": 0.2,
+        "justification": "Node 17's raw features are consistent with most neighbors, sharing identical or similar values, indicating likely normal activity."
+    },
+    {
+        "node_id": 18,
+        "confidence_score": 0.2,
+        "justification": "Node 18's raw features are consistent with its neighbors, sharing the same protocol and similar byte counts, though its outgoing bytes are slightly higher, suggesting a low likelihood of anomaly."
+    },
+    {
+        "node_id": 19,
+        "confidence_score": 0.0,
+        "justification": "Node 19's raw features are consistent with its neighbors, showing identical protocol, L7 protocol, TCP flags, and byte counts, indicating likely normal behavior."
+    },
+    {
+        "node_id": 20,
+        "confidence_score": 0.2,
+        "justification": "Node 20's raw features are consistent with most UDP neighbors, but slight variation in InBytes suggests minor anomaly."
+    },
+    {
+        "node_id": 21,
+        "confidence_score": 0.1,
+        "justification": "Node 21's raw features are consistent with its neighbors, showing similar UDP protocol usage and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 22,
+        "confidence_score": 0.1,
+        "justification": "Node 22's raw features are consistent with its neighbors, showing similar UDP protocol usage, zero duration, and comparable byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 23,
+        "confidence_score": 0.1,
+        "justification": "Node 23's raw features are highly consistent with its neighbors, showing identical protocol, L7 protocol, TCP flags, and byte counts, with only minor variations in flow duration, indicating likely normal activity."
+    },
+    {
+        "node_id": 24,
+        "confidence_score": 0.1,
+        "justification": "Node 24's raw features are consistent with its neighbors, showing similar protocol, L7 protocol, TCP flags, and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 25,
+        "confidence_score": 0.2,
+        "justification": "Node 25's raw features are largely consistent with its neighbors, with similar protocol, L7 protocol, and TCP flags, though it has slightly lower InBytes and OutBytes, indicating minor deviation but not significant enough to suggest high anomaly."
+    },
+    {
+        "node_id": 26,
+        "confidence_score": 0.1,
+        "justification": "Node 26's raw features are highly consistent with its neighbors, indicating likely normal activity."
+    },
+    {
+        "node_id": 27,
+        "confidence_score": 0.2,
+        "justification": "Node 27's raw features are consistent with most of its neighbors, but the presence of neighbors with unknown protocols suggests a slight anomaly."
+    },
+    {
+        "node_id": 28,
+        "confidence_score": 0.1,
+        "justification": "Node 28's raw features are consistent with its neighbors, showing identical protocol, L7_Proto, TCP_Flags, and similar InBytes/OutBytes values, indicating likely normal activity."
+    },
+    {
+        "node_id": 29,
+        "confidence_score": 0.7,
+        "justification": "Node 29 has a unique L7_Proto value of 1.0 compared to neighbors with values 0.0, 7.0, and 131.7, and its TCP_Flags value of 24 is uncommon among neighbors, indicating potential anomaly."
+    },
+    {
+        "node_id": 30,
+        "confidence_score": 0.8,
+        "justification": "Node 30 has an unusual TCP_Flags value of 223 compared to its neighbors, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 31,
+        "confidence_score": 0.9,
+        "justification": "Node 31 has significantly different L7_Proto and TCP_Flags values compared to its neighbors, indicating potential anomalous behavior."
+    },
+    {
+        "node_id": 32,
+        "confidence_score": 0.8,
+        "justification": "Node 32 shows unusual raw features with TCP protocol and L7_Proto 1.0, TCP_Flags 24, and zero duration, while most neighbors use UDP, have L7_Proto 0.0, and different TCP flags, indicating potential anomaly."
+    },
+    {
+        "node_id": 33,
+        "confidence_score": 0.1,
+        "justification": "Node 33's raw features are consistent with its neighbors, showing identical protocol, L7 protocol, TCP flags, and byte patterns, indicating likely normal activity."
+    },
+    {
+        "node_id": 34,
+        "confidence_score": 0.2,
+        "justification": "Node 34's raw features are consistent with its neighbors, sharing similar protocol, L7 protocol, and TCP flags, with no inherently unusual feature values."
+    },
+    {
+        "node_id": 35,
+        "confidence_score": 0.3,
+        "justification": "Node 35 has consistent TCP protocol and TCP flags with several neighbors, but its zero duration and L7_Proto value of 0.0, while shared with some neighbors, could indicate a potential anomaly in flow behavior."
+    },
+    {
+        "node_id": 36,
+        "confidence_score": 0.1,
+        "justification": "Node 36's raw features, including protocol, L7_Proto, TCP_Flags, InBytes, OutBytes, and Duration, are consistent with its neighbors, indicating likely normal activity."
+    },
+    {
+        "node_id": 37,
+        "confidence_score": 0.7,
+        "justification": "Node 37 has an unusual L7_Proto value of 7.178 compared to its neighbors, and its TCP_Flags value of 219 is rare among neighbors, suggesting potential anomaly."
+    },
+    {
+        "node_id": 38,
+        "confidence_score": 0.7,
+        "justification": "Node 38 has a unique L7_Proto value of 7.0 compared to its neighbors' 0.0, indicating potential anomaly despite similar TCP flags and zero duration."
+    },
+    {
+        "node_id": 39,
+        "confidence_score": 0.7,
+        "justification": "Node 39 has a consistent protocol and TCP flags with some neighbors, but its L7_Proto value of 92.0 is significantly different from most neighbors, indicating potential anomaly."
+    },
+    {
+        "node_id": 40,
+        "confidence_score": 0.2,
+        "justification": "Node 40's raw features are consistent with its neighbors, sharing similar UDP protocol, L7_Proto, TCP_Flags, and flow duration, with only minor variations in byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 41,
+        "confidence_score": 0.3,
+        "justification": "Node 41's raw features, including TCP protocol and TCP flags, are consistent with several neighbors, but the zero duration and high incoming bytes suggest potential anomaly, though not highly suspicious."
+    },
+    {
+        "node_id": 42,
+        "confidence_score": 0.1,
+        "justification": "Node 42's raw features are consistent with its neighbors, showing similar UDP protocol usage and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 43,
+        "confidence_score": 0.9,
+        "justification": "Node 43 uses UDP with high incoming bytes and zero outgoing bytes, contrasting with its TCP neighbors, indicating potential anomaly."
+    },
+    {
+        "node_id": 44,
+        "confidence_score": 0.3,
+        "justification": "Node 44 has consistent TCP protocol and zero duration with its neighbors, but slightly unusual TCP flags and L7_Proto value compared to most neighbors, suggesting minor inconsistency."
+    },
+    {
+        "node_id": 45,
+        "confidence_score": 0.7,
+        "justification": "Node 45 has an unusual L7_Proto value of 91.126 compared to its neighbors, which mostly have L7_Proto values of 0.0, indicating potential anomaly."
+    },
+    {
+        "node_id": 46,
+        "confidence_score": 0.8,
+        "justification": "Node 46 has consistent raw features with only one neighbor (ID: 52) and differs significantly from others, indicating potential anomaly."
+    },
+    {
+        "node_id": 47,
+        "confidence_score": 0.7,
+        "justification": "Node 47 has an unusual TCP_Flags value of 219 compared to its neighbors, indicating potential anomaly, despite similar protocol and zero-duration flows."
+    },
+    {
+        "node_id": 48,
+        "confidence_score": 0.1,
+        "justification": "Node 48's raw features are consistent with its neighbors, showing similar UDP protocol usage and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 49,
+        "confidence_score": 0.7,
+        "justification": "Node 49 has a consistent protocol and TCP flags with some neighbors, but its L7_Proto value is unusual compared to most neighbors, and the zero duration is suspicious."
+    },
+    {
+        "node_id": 50,
+        "confidence_score": 0.3,
+        "justification": "Node 50's raw features are mostly consistent with its neighbors, sharing similar protocol, L7_Proto, and TCP_Flags, though slight variations in TCP_Flags and byte counts suggest minor deviations."
+    },
+    {
+        "node_id": 51,
+        "confidence_score": 0.1,
+        "justification": "Node 51's raw features are highly consistent with its neighbors, showing similar protocol, TCP flags, byte counts, and durations, indicating likely normal activity."
+    },
+    {
+        "node_id": 52,
+        "confidence_score": 0.8,
+        "justification": "Node 52 has consistent raw features with only one neighbor (ID 46) and differs significantly from others, indicating potential anomaly."
+    },
+    {
+        "node_id": 53,
+        "confidence_score": 0.7,
+        "justification": "Node 53 has a TCP_Flags value of 222, which is significantly higher than most neighbors, indicating potential anomaly or misconfiguration."
+    },
+    {
+        "node_id": 54,
+        "confidence_score": 0.8,
+        "justification": "Node 54 has an unusual protocol (219) not seen in its neighbors and zero duration, suggesting potential anomaly or misconfiguration."
+    },
+    {
+        "node_id": 55,
+        "confidence_score": 0.1,
+        "justification": "Node 55's raw features are highly consistent with its neighbors, showing similar protocol, L7 protocol, TCP flags, and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 56,
+        "confidence_score": 0.8,
+        "justification": "Node 56 has significantly higher InBytes compared to its neighbors, indicating potential anomalous behavior."
+    },
+    {
+        "node_id": 57,
+        "confidence_score": 0.8,
+        "justification": "Node 57 has a TCP protocol with unusual TCP flags (219) and zero duration, while most neighbors use UDP with zero TCP flags, indicating inconsistency and potential anomaly."
+    },
+    {
+        "node_id": 58,
+        "confidence_score": 0.1,
+        "justification": "Node 58's raw features, including protocol, TCP flags, and byte counts, are consistent with its neighbors, indicating likely normal activity."
+    },
+    {
+        "node_id": 59,
+        "confidence_score": 0.2,
+        "justification": "Node 59's raw features are consistent with most of its neighbors, except for one TCP neighbor, suggesting low likelihood of anomaly."
+    },
+    {
+        "node_id": 60,
+        "confidence_score": 0.7,
+        "justification": "Node 60 has a zero duration with significant byte transfer, which is unusual and inconsistent with its neighbors, indicating potential anomalous behavior."
+    },
+    {
+        "node_id": 61,
+        "confidence_score": 0.7,
+        "justification": "Node 61 has an unusually high flow duration compared to its neighbors, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 62,
+        "confidence_score": 0.7,
+        "justification": "Node 62 has identical raw features to most neighbors, suggesting potential spoofing or DDoS, but one neighbor with different protocol and flags indicates inconsistency."
+    },
+    {
+        "node_id": 63,
+        "confidence_score": 0.8,
+        "justification": "Node 63 has TCP protocol with SYN flag and zero duration, inconsistent with neighbors using UDP or unknown protocols, suggesting potential anomaly."
+    },
+    {
+        "node_id": 64,
+        "confidence_score": 0.3,
+        "justification": "Node 64's raw features are generally consistent with its neighbors, sharing similar protocol, L7 protocol, and TCP flags, though it has slightly higher byte counts which are not significantly anomalous."
+    },
+    {
+        "node_id": 65,
+        "confidence_score": 0.7,
+        "justification": "Node 65 has a significantly higher OutBytes value compared to its neighbors, with a TCP_Flags value that matches only one neighbor, indicating potential anomalous behavior."
+    },
+    {
+        "node_id": 66,
+        "confidence_score": 0.2,
+        "justification": "Node 66's raw features are consistent with its neighbors, sharing similar protocol, L7_Proto, TCP_Flags, and zero duration, indicating likely normal activity."
+    },
+    {
+        "node_id": 67,
+        "confidence_score": 0.2,
+        "justification": "Node 67's raw features are consistent with its neighbors, sharing similar UDP protocol and zero duration, though its higher OutBytes is slightly unusual but not significantly anomalous."
+    },
+    {
+        "node_id": 68,
+        "confidence_score": 0.0,
+        "justification": "Node 68's raw features are consistent with its neighbors, showing identical protocol, L7 protocol, TCP flags, and byte counts, indicating normal activity."
+    },
+    {
+        "node_id": 69,
+        "confidence_score": 0.2,
+        "justification": "Node 69's raw features, including protocol, TCP flags, and byte counts, are consistent with most neighbors, though slight variations in byte counts and a different L7_Proto in one neighbor suggest minor anomalies."
+    },
+    {
+        "node_id": 70,
+        "confidence_score": 0.1,
+        "justification": "Node 70's raw features are consistent with its neighbors, showing similar UDP protocol usage and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 71,
+        "confidence_score": 0.2,
+        "justification": "Node 71's raw features are consistent with most neighbors, sharing similar TCP protocol, L7_Proto, and TCP_Flags, though slight variations in InBytes and OutBytes are observed."
+    },
+    {
+        "node_id": 72,
+        "confidence_score": 0.8,
+        "justification": "Node 72 has an unusual protocol (171) and zero duration, inconsistent with its neighbors' more common protocols and non-zero durations, suggesting potential anomaly."
+    },
+    {
+        "node_id": 73,
+        "confidence_score": 0.7,
+        "justification": "Node 73 has a TCP_Flags value of 27, which is unusual compared to its neighbors, and its L7_Proto value of 0.0 is rare among neighbors, indicating potential anomalous behavior."
+    },
+    {
+        "node_id": 74,
+        "confidence_score": 0.1,
+        "justification": "Node 74's raw features are consistent with its neighbors, showing similar UDP protocol usage, byte counts, and zero duration, indicating likely normal activity."
+    },
+    {
+        "node_id": 75,
+        "confidence_score": 0.1,
+        "justification": "Node 75's raw features are consistent with its neighbors, sharing similar UDP protocol, L7_Proto, TCP_Flags, InBytes, and OutBytes values, indicating likely normal activity."
+    },
+    {
+        "node_id": 76,
+        "confidence_score": 0.6,
+        "justification": "Node 76 shows unusual TCP flag (25) compared to neighbors (24, 27) and has zero duration, suggesting potential anomaly."
+    },
+    {
+        "node_id": 77,
+        "confidence_score": 0.3,
+        "justification": "Node 77's raw features are mostly consistent with its neighbors, sharing similar protocol, L7_Proto, and TCP_Flags, but the zero duration across all nodes is unusual and slightly raises suspicion."
+    },
+    {
+        "node_id": 78,
+        "confidence_score": 0.7,
+        "justification": "Node 78 has significantly higher OutBytes and Duration compared to its neighbors, indicating potential anomalous behavior."
+    },
+    {
+        "node_id": 79,
+        "confidence_score": 0.1,
+        "justification": "Node 79's raw features are highly consistent with its neighbors, showing similar protocol, TCP flags, and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 80,
+        "confidence_score": 0.6,
+        "justification": "Node 80 has a unique L7_Proto value of 1.0 compared to its neighbors, and its TCP_Flags value of 24 is uncommon among neighbors, suggesting potential anomaly."
+    },
+    {
+        "node_id": 81,
+        "confidence_score": 0.7,
+        "justification": "Node 81 has a TCP protocol with a zero duration and unusual TCP flags (27) compared to its neighbors, indicating potential anomaly."
+    },
+    {
+        "node_id": 82,
+        "confidence_score": 0.85,
+        "justification": "Node 82 shows a highly unusual L7_Proto value of 91.233 compared to neighbors' consistent 0.0 or low values, and its TCP_Flags of 223 is an outlier, indicating potential anomalous behavior."
+    },
+    {
+        "node_id": 83,
+        "confidence_score": 0.3,
+        "justification": "Node 83's raw features are mostly consistent with its neighbors, sharing similar TCP protocol and zero duration, but the TCP flags and byte counts show slight variations that are not highly anomalous."
+    },
+    {
+        "node_id": 84,
+        "confidence_score": 0.0,
+        "justification": "Node 84's raw features are consistent with its neighbors, showing identical protocol, L7 protocol, TCP flags, and byte counts, indicating normal activity."
+    },
+    {
+        "node_id": 85,
+        "confidence_score": 0.1,
+        "justification": "Node 85's raw features are consistent with its neighbors, showing similar protocol, L7 protocol, TCP flags, and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 86,
+        "confidence_score": 0.1,
+        "justification": "Node 86's raw features are consistent with its neighbors, showing similar protocol, L7 protocol, TCP flags, and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 87,
+        "confidence_score": 0.9,
+        "justification": "Node 87 uses TCP with SYN flag and zero duration, while all neighbors use UDP, indicating a potential anomaly or scanning activity."
+    },
+    {
+        "node_id": 88,
+        "confidence_score": 0.7,
+        "justification": "Node 88 has significantly higher OutBytes compared to its neighbors, suggesting potential anomalous behavior despite similar protocol and TCP flags."
+    },
+    {
+        "node_id": 89,
+        "confidence_score": 0.1,
+        "justification": "Node 89's raw features are consistent with its neighbors, sharing similar UDP protocol, L7_Proto, TCP_Flags, and zero duration, indicating likely normal activity."
+    },
+    {
+        "node_id": 90,
+        "confidence_score": 0.1,
+        "justification": "Node 90's raw features are consistent with its neighbors, showing similar UDP protocol usage and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 91,
+        "confidence_score": 0.8,
+        "justification": "Node 91 has a TCP protocol with unusual TCP flags (30) and zero duration, inconsistent with its neighbors' features, which include both TCP and UDP protocols with varied L7_Proto values and durations."
+    },
+    {
+        "node_id": 92,
+        "confidence_score": 0.2,
+        "justification": "Node 92's raw features are consistent with most of its UDP neighbors, except for a slightly lower InBytes value, and it shares the same zero duration and OutBytes, indicating likely normal behavior."
+    },
+    {
+        "node_id": 93,
+        "confidence_score": 0.6,
+        "justification": "Node 93 has a zero flow duration and low byte counts, which are unusual compared to its neighbors, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 94,
+        "confidence_score": 0.1,
+        "justification": "Node 94's raw features are consistent with its neighbors, showing similar protocol, L7 protocol, TCP flags, and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 95,
+        "confidence_score": 0.1,
+        "justification": "Node 95's raw features are highly consistent with its neighbors, showing similar protocol, TCP flags, byte counts, and flow durations, indicating likely normal activity."
+    },
+    {
+        "node_id": 96,
+        "confidence_score": 0.9,
+        "justification": "Node 96 is inconsistent with its neighbors as it uses TCP with non-zero TCP flags and very low byte counts, while all neighbors use UDP with higher byte counts and zero TCP flags, indicating potential anomalous behavior."
+    },
+    {
+        "node_id": 97,
+        "confidence_score": 0.1,
+        "justification": "Node 97's raw features are consistent with its neighbors, showing similar UDP protocol usage and byte counts, indicating likely normal activity."
+    },
+    {
+        "node_id": 98,
+        "confidence_score": 0.7,
+        "justification": "Node 98 shows unusual L7_Proto value compared to its neighbors and has a long duration with balanced in/out bytes, suggesting potential anomalous behavior."
+    },
+    {
+        "node_id": 99,
+        "confidence_score": 0.7,
+        "justification": "Node 99 has a TCP protocol with a zero duration and TCP flags set to 30, which is unusual compared to its UDP neighbors and suggests potential anomalous behavior."
+    },
+    {
+        "node_id": 100,
+        "confidence_score": 0.8,
+        "justification": "Node 100 lacks raw features, making it difficult to assess consistency with neighbors, and its processed features are unusual compared to the diverse protocols and TCP flags of its neighbors, suggesting potential anomaly."
+    },
+    {
+        "node_id": 101,
+        "confidence_score": 0.8,
+        "justification": "Node 101 lacks raw features, making it difficult to assess consistency, and its processed features are highly divergent from its neighbors' raw features, indicating potential anomaly."
+    },
+    {
+        "node_id": 102,
+        "confidence_score": 0.8,
+        "justification": "Node 102 lacks raw features for direct comparison, but its processed features are highly unusual and it connects to neighbors with diverse protocols and inconsistent flow characteristics, suggesting potential anomaly."
+    },
+    {
+        "node_id": 103,
+        "confidence_score": 0.8,
+        "justification": "Node 103 lacks raw features, making it difficult to assess consistency with neighbors, and its processed features suggest potential anomaly due to significant deviation from typical patterns."
+    },
+    {
+        "node_id": 104,
+        "confidence_score": 0.8,
+        "justification": "Node 104 lacks raw features, making it difficult to assess consistency, but its processed features and diverse neighbor protocols suggest potential anomaly."
+    },
+    {
+        "node_id": 105,
+        "confidence_score": 0.7,
+        "justification": "Node 105 lacks raw features, making it difficult to assess consistency, and its neighbors show diverse protocols and TCP flags, suggesting potential anomaly."
+    },
+    {
+        "node_id": 106,
+        "confidence_score": 0.9,
+        "justification": "Node 106 lacks raw features and connects to neighbors with diverse protocols and inconsistent flow durations, suggesting potential anomaly."
+    },
+    {
+        "node_id": 107,
+        "confidence_score": 0.8,
+        "justification": "Node 107 lacks raw features, making it difficult to assess consistency, and its neighbors show diverse protocols and feature values, suggesting potential anomaly."
+    },
+    {
+        "node_id": 108,
+        "confidence_score": 0.8,
+        "justification": "Node 108 lacks raw features, making it difficult to assess consistency, and its neighbors show diverse protocols and TCP flags, suggesting potential anomaly."
+    },
+    {
+        "node_id": 109,
+        "confidence_score": 0.8,
+        "justification": "Node 109 lacks raw features, making it difficult to assess consistency, but its neighbors show diverse and potentially conflicting flow characteristics, suggesting it might be anomalous."
+    },
+    {
+        "node_id": 110,
+        "confidence_score": 0.8,
+        "justification": "Node 110 lacks raw features, making it difficult to assess consistency with neighbors, and its processed features are unusual, suggesting potential anomaly."
+    },
+    {
+        "node_id": 111,
+        "confidence_score": 0.8,
+        "justification": "Node 111 lacks raw features, making it difficult to assess consistency, and its neighbors show diverse protocols and durations, suggesting potential anomaly."
+    },
+    {
+        "node_id": 112,
+        "confidence_score": 0.8,
+        "justification": "Node 112 lacks raw features for direct comparison, but its processed features are highly divergent from neighbors with varied protocols and TCP flags, suggesting potential anomaly."
+    },
+    {
+        "node_id": 113,
+        "confidence_score": 0.8,
+        "justification": "Node 113 lacks raw features, making it difficult to assess consistency with neighbors, which show diverse TCP flags and L7 protocols, suggesting potential anomaly."
+    },
+    {
+        "node_id": 114,
+        "confidence_score": 0.8,
+        "justification": "Node 114 lacks raw features, making it difficult to assess consistency with neighbors, and its processed features suggest potential anomaly."
+    },
+    {
+        "node_id": 115,
+        "confidence_score": 0.8,
+        "justification": "Node 115 lacks raw features, making it difficult to assess consistency, and its neighbors show diverse protocols and TCP flags, suggesting potential anomaly."
+    },
+    {
+        "node_id": 116,
+        "confidence_score": 0.8,
+        "justification": "Node 116 lacks raw features and connects to diverse protocols (TCP and UDP) with varying L7 protocols and TCP flags, suggesting potential inconsistency or anomalous behavior."
+    },
+    {
+        "node_id": 117,
+        "confidence_score": 0.8,
+        "justification": "Node 117 lacks raw features, making it difficult to assess consistency, and its neighbors show diverse protocols and TCP flags, indicating potential anomaly."
+    },
+    {
+        "node_id": 118,
+        "confidence_score": 0.9,
+        "justification": "Node 118 lacks raw features and connects to diverse neighbors with varying protocols and TCP flags, suggesting potential anomaly."
+    },
+    {
+        "node_id": 119,
+        "confidence_score": 0.8,
+        "justification": "Node 119 lacks raw features, making it difficult to assess consistency with neighbors, and its processed features are highly unusual compared to neighbors with diverse TCP flags and durations."
+    }
+]
