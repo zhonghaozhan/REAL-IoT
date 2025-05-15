@@ -25,9 +25,9 @@ We standardize and evaluate multiple cybersecurity datasets to enable cross-data
 ## Models
 
 We evaluate the following GNN architectures:
-- **GCN** (Graph Convolutional Networks)
-- **GAT** (Graph Attention Networks)
-- **GraphSAGE** (Graph Sample and Aggregate)
+- **Anormal-E** 
+- **E-GraphSAGE** 
+- **CAGN-GAT Fusion** 
 
 ## Directory Structure
 
